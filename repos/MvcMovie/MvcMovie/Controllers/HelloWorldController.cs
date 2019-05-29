@@ -18,5 +18,10 @@ namespace MvcMovie.Controllers
 
             return View();
         }
+
+        public void DoesNothing()
+        {
+            //does nothing
+        }
     }
 }
